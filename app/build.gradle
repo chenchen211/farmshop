@@ -1,0 +1,63 @@
+apply plugin: 'com.android.application'
+apply plugin: 'org.greenrobot.greendao' // apply plugin
+android {
+    signingConfigs {
+        config {
+            keyAlias 'mksdy'
+            keyPassword 'mksdy888'
+            storeFile file('F:/key_store/chenchen.jks')
+            storePassword 'mksdy888'
+        }
+    }
+    compileSdkVersion 25
+    buildToolsVersion "25.0.2"
+    defaultConfig {
+        applicationId "com.hnxy.farmshop"
+        minSdkVersion 16
+        targetSdkVersion 25
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['libs']
+        }
+    }
+}
+greendao {
+    schemaVersion 1
+    daoPackage 'com.hnxy.farmshop.gen'
+    targetGenDir 'src/main/java'
+}
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile files('libs/pushservice-5.7.1.65.jar')
+    compile files('libs/commonutils.jar')
+    compile 'com.squareup.picasso:picasso:2.5.2'
+    compile 'com.squareup.picasso:picasso:2.5.2'
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    compile 'com.squareup.retrofit2:retrofit:2.0.2'
+    compile 'com.squareup.retrofit2:converter-gson:2.0.2'
+    compile 'com.squareup.retrofit2:adapter-rxjava:2.0.2'
+    compile 'com.squareup.okhttp3:logging-interceptor:3.2.0'
+    compile 'com.squareup.okhttp3:okhttp-urlconnection:3.2.0'
+    compile 'com.android.support:appcompat-v7:25.3.1'
+    compile 'org.xutils:xutils:3.4.0'
+    compile 'org.greenrobot:greendao:3.0.1'
+    compile 'org.greenrobot:greendao-generator:3.0.0'
+    compile 'com.zhy:base-rvadapter:3.0.3'
+    compile 'com.github.jdsjlzx:LRecyclerView:1.4.3'
+    compile 'com.android.support:cardview-v7:26.0.0-alpha1'
+    compile 'com.android.support:design:26.0.0-alpha1'
+    compile 'com.github.dmytrodanylyk.circular-progress-button:library:1.1.3'
+    compile 'com.android.support:support-v4:25.3.1'
+    compile 'com.dev.sacot41:scviewpager:0.0.4'
+    debugCompile 'com.squareup.leakcanary:leakcanary-android:1.3'
+    releaseCompile 'com.squareup.leakcanary:leakcanary-android-no-op:1.3'
+}

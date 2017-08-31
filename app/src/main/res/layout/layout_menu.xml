@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/theme"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:padding="8dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:gravity="center"
+            android:layout_height="match_parent">
+            <ImageView
+                android:src="@mipmap/icon_indexn_01"
+                android:layout_width="64dp"
+                android:layout_height="64dp" />
+            <TextView
+                android:textSize="16sp"
+                android:layout_marginTop="3dp"
+                android:text="新品上市"
+                android:gravity="center_horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:gravity="center"
+            android:layout_height="match_parent">
+            <ImageView
+                android:src="@mipmap/icon_indexn_02"
+                android:layout_width="64dp"
+                android:layout_height="64dp" />
+            <TextView
+                android:textSize="16sp"
+                android:layout_marginTop="3dp"
+                android:text="促销"
+                android:gravity="center_horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:gravity="center"
+            android:layout_height="match_parent">
+            <ImageView
+                android:src="@mipmap/icon_indexn_03"
+                android:layout_width="64dp"
+                android:layout_height="64dp" />
+            <TextView
+                android:textSize="16sp"
+                android:layout_marginTop="3dp"
+                android:text="我的收藏"
+                android:gravity="center_horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:gravity="center"
+            android:layout_height="match_parent">
+            <ImageView
+                android:src="@mipmap/icon_indexn_04"
+                android:layout_width="64dp"
+                android:layout_height="64dp" />
+            <TextView
+                android:textSize="16sp"
+                android:layout_marginTop="3dp"
+                android:text="我的订单"
+                android:gravity="center_horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:padding="8dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:gravity="center"
+            android:layout_height="match_parent">
+            <ImageView
+                android:src="@mipmap/icon_indexn_05"
+                android:layout_width="64dp"
+                android:layout_height="64dp" />
+            <TextView
+                android:textSize="16sp"
+                android:layout_marginTop="3dp"
+                android:text="分类"
+                android:gravity="center_horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:gravity="center"
+            android:layout_height="match_parent">
+            <ImageView
+                android:src="@mipmap/icon_indexn_06"
+                android:layout_width="64dp"
+                android:layout_height="64dp" />
+            <TextView
+                android:textSize="16sp"
+                android:layout_marginTop="3dp"
+                android:text="购物车"
+                android:gravity="center_horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:gravity="center"
+            android:layout_height="match_parent">
+            <ImageView
+                android:src="@mipmap/icon_indexn_07"
+                android:layout_width="64dp"
+                android:layout_height="64dp" />
+            <TextView
+                android:textSize="16sp"
+                android:layout_marginTop="3dp"
+                android:text="个人中心"
+                android:gravity="center_horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:gravity="center"
+            android:layout_height="match_parent">
+            <ImageView
+                android:src="@mipmap/icon_indexn_08"
+                android:layout_width="64dp"
+                android:layout_height="64dp" />
+            <TextView
+                android:textSize="16sp"
+                android:layout_marginTop="3dp"
+                android:text="客服"
+                android:gravity="center_horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

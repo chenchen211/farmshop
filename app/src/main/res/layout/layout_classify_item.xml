@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:id="@+id/item_root"
+    android:layout_marginTop="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/item_img"
+        android:src="@mipmap/icon_indexn_01"
+        android:layout_width="64dp"
+        android:layout_height="64dp" />
+    <TextView
+        android:id="@+id/item_text"
+        android:textSize="16sp"
+        android:layout_marginTop="3dp"
+        android:text="新品上市"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
