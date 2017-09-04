@@ -156,7 +156,7 @@
         <!-- push结束 -->
 
         <activity android:name=".ui.GoodsDetailActivity" />
-        <activity android:name=".ui.GuideActivity"/>
+        <activity android:name=".ui.ChartActivity"></activity>
     </application>
 
 </manifest>
