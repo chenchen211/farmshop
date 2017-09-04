@@ -46,13 +46,16 @@ public class LoginActivity extends BaseActivity implements LoginContract.View {
             etPassword.requestFocus();
         }
     }
-    @Event({R.id.btn_login})
+    @Event({R.id.btn_login,R.id.chart})
     private void onClick(View view){
         switch (view.getId()){
             case R.id.btn_login:
                 username = etUsername.getText().toString();
                 password = etPassword.getText().toString();
                 login(username,password);
+                break;
+            case R.id.chart:
+                changeActivity(ChartActivity.class,false);
                 break;
         }
     }

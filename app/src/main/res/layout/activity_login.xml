@@ -42,6 +42,11 @@
                 app:cpb_selectorError="@drawable/error_selector"
                 app:cpb_selectorComplete="@drawable/success_selector"
                 style="@style/login_btn" />
+            <Button
+                android:id="@+id/chart"
+                android:text="图表"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
         </LinearLayout>
     </LinearLayout>
 </LinearLayout>
